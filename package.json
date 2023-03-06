@@ -1,0 +1,16 @@
+{
+  "name": "qa-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+
+    "build": "ncc build src/action.js -o dist"
+    
+    },
+  "repository": "git@github.com:Shezee/qa-demo.git",
+  "author": "Shazeen Mahmood <mahmood@talon.one>",
+  "license": "MIT",
+  "devDependencies": {
+    "@vercel/ncc": "^0.36.1"
+  }
+}
